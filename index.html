@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://kit.fontawesome.com/f322b34206.css" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>Delicia</title>
+    </head>
+
+    <body>
+
+        <div class="page-bg"></div>
+
+        <!-- Nav bar -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold fst-italic" href="#">Delicia</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Our Cuisine</a>
+                        </li>
+
+                        <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li> -->
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactUs.html">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <!-- <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- Images Carousel -->
+
+        <div id="carouselExampleAutoplaying" class="carousel slide container-fluid align-self-center d-flex
+        " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imgCarousel1.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgCarousel2.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgCarousel3.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Food Cards -->
+
+        <div class="container main_containers">
+            <h2 class="text-center m-5">Our <b class="">Signature</b> Dishes</h2>
+            <div class="row justify-content-center cards_imgs">
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1586197132548-e2e19edf9f89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFzYWduYXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lasagna</h5>
+                        <p class="card-text">Price: 500Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Delicia Burger</h5>
+                        <p class="card-text">Price: 600Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1518013431117-eb1465fa5752?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG9iYXNjbyUyMGZyaWVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tobasco Fries</h5>
+                        <p class="card-text">Price: 400Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1478749485505-2a903a729c63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a29yZWFuJTIwc291cHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Signature Korean soup</h5>
+                        <p class="card-text">Price: 800Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-center m-5">Savour Your <b class="">Taste Buds</b></h2>
+            <div class="row justify-content-center cards_imgs">
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1586197132548-e2e19edf9f89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFzYWduYXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lasagna</h5>
+                        <p class="card-text">Price: 500Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Delicia Burger</h5>
+                        <p class="card-text">Price: 600Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1518013431117-eb1465fa5752?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG9iYXNjbyUyMGZyaWVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tobasco Fries</h5>
+                        <p class="card-text">Price: 400Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1478749485505-2a903a729c63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a29yZWFuJTIwc291cHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Signature Korean soup</h5>
+                        <p class="card-text">Price: 800Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1586197132548-e2e19edf9f89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFzYWduYXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lasagna</h5>
+                        <p class="card-text">Price: 500Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Delicia Burger</h5>
+                        <p class="card-text">Price: 600Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1518013431117-eb1465fa5752?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG9iYXNjbyUyMGZyaWVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tobasco Fries</h5>
+                        <p class="card-text">Price: 400Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1478749485505-2a903a729c63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a29yZWFuJTIwc291cHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Signature Korean soup</h5>
+                        <p class="card-text">Price: 800Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1586197132548-e2e19edf9f89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFzYWduYXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lasagna</h5>
+                        <p class="card-text">Price: 500Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Delicia Burger</h5>
+                        <p class="card-text">Price: 600Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1518013431117-eb1465fa5752?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dG9iYXNjbyUyMGZyaWVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tobasco Fries</h5>
+                        <p class="card-text">Price: 400Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-up" class="card col-12 col-md-6 col-lg-4 col-xl-3 m-3" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1478749485505-2a903a729c63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a29yZWFuJTIwc291cHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Signature Korean soup</h5>
+                        <p class="card-text">Price: 800Rs</p>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div class=" mt-5" style="padding-top: 100px;">
+
+            <footer class="bg-dark text-center text-white">
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+                    <!-- Section: Social media -->
+                    <section class="mb-4">
+                        <!-- Facebook -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                class="fa-brands fa-facebook"></i></a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                class="fa-brands fa-square-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                class="fa-brands fa-google"></i></a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                class="fab fa-instagram"></i></a>
+
+                    </section>
+                    <!-- Section: Social media -->
+                </div>
+                <!-- Grid container -->
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2020 Copyright:
+                    <a class="text-white" href="index.html">Delicia.com</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+
+        </div>
+        <!-- End of .container -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+    </body>
+
+</html>

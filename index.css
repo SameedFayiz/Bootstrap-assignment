@@ -1,0 +1,29 @@
+.page-bg {
+    background-image:url(doodlebg.webp);
+    opacity:0.15;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-repeat: repeat;
+    z-index:-1;
+}
+
+#carouselExampleAutoplaying {
+    max-height: 600px;
+    max-width: 1000px;
+}
+
+#carouselExampleAutoplaying img {
+    max-height: 600px;
+    max-width: 1000px;
+}
+
+.cards_imgs img {
+    height: 200px;
+}
+
+.main_containers::before {
+    opacity: 0;
+}
